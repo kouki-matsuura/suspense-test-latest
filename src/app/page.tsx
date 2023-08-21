@@ -12,7 +12,7 @@ export default function Home() {
             <Button
               color="danger"
               size="lg"
-              href="/noSuspense"
+              href="/notSuspense"
               as={Link}
               style={{ marginBottom: "20px" }}
             >
