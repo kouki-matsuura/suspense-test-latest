@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 
 export const GET = () => {
-  return Math.random() < 0.5
+  return Math.random() > 0
     ? NextResponse.json({
         data: "success",
       })
