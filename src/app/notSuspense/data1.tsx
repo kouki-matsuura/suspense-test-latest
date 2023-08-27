@@ -10,7 +10,7 @@ export const Data1 = async () => {
       className="flex items-center justify-center w-75 h-52"
       color="primary"
     >
-      <div>1秒後に表示されるコンポーネント</div>
+      <div>1秒後に表示されるコンポーネント_{data}</div>
     </Code>
   );
 };

@@ -10,7 +10,7 @@ export const Data3 = async () => {
       color="danger"
       className="flex items-center justify-center w-75 h-52"
     >
-      <span>5秒後に表示されるコンポーネント</span>
+      <span>5秒後に表示されるコンポーネント_{data}</span>
     </Code>
   );
 };

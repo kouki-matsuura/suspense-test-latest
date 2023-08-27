@@ -12,8 +12,11 @@ export const fetcher = async () => {
 };
 
 export const DataSWR3 = () => {
-  const { data } = useSWR("data", fetcher, {
+  const { data } = useSWR("data3", fetcher, {
     suspense: true,
+    onSuccess(data) {
+      localStorage.setItem("data3", JSON.stringify(data));
+    },
   });
   console.log("data3", data);
   return (
